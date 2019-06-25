@@ -1,0 +1,14 @@
+{
+    "version": "1.0.1",
+    "name": "support-play-services-release",
+    "cordova_name": "Support Play Services Release",
+    "platforms": [
+        "android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ]
+}
