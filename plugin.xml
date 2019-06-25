@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin version="2.0.2" id="support-play-services-release" xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<name>Support Play Services Release</name>
+	<description>Align Versions of the Play Services Library</description>
+	<author>Elmer Nancher (Reinarte)</author>
+
+	<hook type="after_prepare" src="hooks/apply-changes.js" />
+	<hook type="before_build" src="hooks/apply-changes.js" />
+	<hook type="after_plugin_install" src="hooks/apply-changes.js" />
+
+	<preference name="PLAY_SERVICES_VERSION" default="11.+" />
+
+	<framework src="gradle/play-services-release.gradle" custom="true" type="gradleReference" />
+
+</plugin>
