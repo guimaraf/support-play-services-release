@@ -5,7 +5,7 @@ repositories{
   }
 }
 
-def PLAY_SERVICES_VERSION = "11.+"
+def PLAY_SERVICES_VERSION = "+"
 def PLUGIN_NAME = "support-play-services-release"
 
 // List of libs to search for.
